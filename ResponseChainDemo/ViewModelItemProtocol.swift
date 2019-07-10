@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ViewModelItemProtocol:  class {
-
+    func setViewModelItem(_ viewModelItem: CSTableBaseItem)
 }

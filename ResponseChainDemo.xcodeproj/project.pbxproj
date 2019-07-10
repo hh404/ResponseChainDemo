@@ -22,6 +22,10 @@
 		EC2CA0C822D37DF1006DF213 /* WeakKeyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CA0C422D37DF1006DF213 /* WeakKeyDictionary.swift */; };
 		EC2CA0CA22D382B6006DF213 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CA0C922D382B6006DF213 /* DetailViewController.swift */; };
 		EC2CA0CC22D398AB006DF213 /* Type1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CA0CB22D398AB006DF213 /* Type1TableViewCell.swift */; };
+		EC2CA0CE22D4D1DF006DF213 /* CSTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CA0CD22D4D1DF006DF213 /* CSTableItem.swift */; };
+		EC2CA0D022D4D36E006DF213 /* CSBaseItemTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CA0CF22D4D36E006DF213 /* CSBaseItemTCell.swift */; };
+		EC2CA0D222D4D428006DF213 /* CSSingleTextTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CA0D122D4D428006DF213 /* CSSingleTextTCell.swift */; };
+		EC2CA0D422D4D570006DF213 /* CSTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CA0D322D4D570006DF213 /* CSTableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		EC2CA0C422D37DF1006DF213 /* WeakKeyDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakKeyDictionary.swift; sourceTree = "<group>"; };
 		EC2CA0C922D382B6006DF213 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EC2CA0CB22D398AB006DF213 /* Type1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1TableViewCell.swift; sourceTree = "<group>"; };
+		EC2CA0CD22D4D1DF006DF213 /* CSTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTableItem.swift; sourceTree = "<group>"; };
+		EC2CA0CF22D4D36E006DF213 /* CSBaseItemTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSBaseItemTCell.swift; sourceTree = "<group>"; };
+		EC2CA0D122D4D428006DF213 /* CSSingleTextTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSingleTextTCell.swift; sourceTree = "<group>"; };
+		EC2CA0D322D4D570006DF213 /* CSTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,10 @@
 				EC2CA0BE22D37981006DF213 /* ViewModelItemProtocol.swift */,
 				EC2CA0C922D382B6006DF213 /* DetailViewController.swift */,
 				EC2CA0CB22D398AB006DF213 /* Type1TableViewCell.swift */,
+				EC2CA0CD22D4D1DF006DF213 /* CSTableItem.swift */,
+				EC2CA0CF22D4D36E006DF213 /* CSBaseItemTCell.swift */,
+				EC2CA0D122D4D428006DF213 /* CSSingleTextTCell.swift */,
+				EC2CA0D322D4D570006DF213 /* CSTableViewDataSource.swift */,
 			);
 			path = ResponseChainDemo;
 			sourceTree = "<group>";
@@ -288,15 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2CA0D222D4D428006DF213 /* CSSingleTextTCell.swift in Sources */,
 				EC2CA0CA22D382B6006DF213 /* DetailViewController.swift in Sources */,
+				EC2CA0CE22D4D1DF006DF213 /* CSTableItem.swift in Sources */,
 				EC2CA09122D3785E006DF213 /* ViewController.swift in Sources */,
 				EC2CA0C822D37DF1006DF213 /* WeakKeyDictionary.swift in Sources */,
+				EC2CA0D022D4D36E006DF213 /* CSBaseItemTCell.swift in Sources */,
 				EC2CA0C722D37DF1006DF213 /* WeakDictionary.swift in Sources */,
 				EC2CA0BD22D3787B006DF213 /* UIResponderExtension.swift in Sources */,
 				EC2CA0CC22D398AB006DF213 /* Type1TableViewCell.swift in Sources */,
 				EC2CA08F22D3785E006DF213 /* AppDelegate.swift in Sources */,
 				EC2CA0C622D37DF1006DF213 /* WeakDictionaryReference.swift in Sources */,
 				EC2CA0C522D37DF1006DF213 /* WeakDictionaryKeyReference.swift in Sources */,
+				EC2CA0D422D4D570006DF213 /* CSTableViewDataSource.swift in Sources */,
 				EC2CA0BF22D37981006DF213 /* ViewModelItemProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
